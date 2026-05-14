@@ -41,7 +41,6 @@ html, body{
 }
 
 .left-bar a{
-    cursor: pointer;
     color: white;
     text-decoration: none;
 }
@@ -54,7 +53,7 @@ html, body{
     padding: 0 1rem;
 }
 
-.items:hover button, .items:hover span, .items:hover a, .items:hover{            /* problem solved when clicking parent container inner button also changing its color */
+.left-bar .items:hover button, .left-bar .items:hover span, .items:hover a, .left-bar .items:hover{            /* problem solved when clicking parent container inner button also changing its color */
     display: inline;
     background-color: rgb(17, 16, 16);                                  
 }
@@ -103,7 +102,7 @@ html, body{
     border: 3px solid red;
 }
 
-.profile p, img{
+.profile p, .profile img{
     cursor: pointer;
 }
 
@@ -138,7 +137,7 @@ html, body{
     padding-top: 15px;
 }
 
-.items{
+.suggestion .box1 .items{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -169,7 +168,7 @@ html, body{
     row-gap: 3rem;
 }
 
-.box2 a{
+.suggestion .box2 a{
     text-decoration: none;
     color: #3b4da6;
 }
