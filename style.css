@@ -156,6 +156,10 @@ html, body{
     border-radius: 50%;
 }
 
+.s-image img, .s-text h5{
+    cursor: pointer;
+}
+
 .box2{
     padding-top: 15px;
     border: 3px solid blue;
