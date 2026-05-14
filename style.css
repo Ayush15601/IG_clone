@@ -29,11 +29,15 @@ html, body{
     padding-top: 1rem;
     display: flex;
     flex-direction: column;
-    row-gap: 2rem;
+    row-gap: 1rem;
     max-width: 14rem;
     width: 100%;
     height: 100%;
     border: 10px solid red;
+}
+
+.items{
+    height: 3rem;
 }
 
 .left-bar a{
@@ -53,7 +57,7 @@ html, body{
 
 .items:hover button, .items:hover span, .items:hover a, .items:hover{            /* problem solved when clicking parent container inner button also changing its color */
     display: inline;
-    background-color: grey;                                  
+    background-color: rgb(17, 16, 16);                                  
 }
 
 .items span{
