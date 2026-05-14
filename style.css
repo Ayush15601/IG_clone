@@ -120,10 +120,12 @@ html, body{
     max-width: 18rem;
     width: 100%;
     min-height: 1rem;
-    margin-left: 5rem;
+    margin-left: 4rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     column-gap: 1rem;
+    color: white;
 }
 
 .box1{
